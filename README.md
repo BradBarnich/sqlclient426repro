@@ -1,8 +1,11 @@
 A repro for issue https://github.com/dotnet/SqlClient/issues/426
 
 Steps:
+
 `msbuild .\ConsoleApp1.sln`
+
 `pushd .\ConsoleApp1\bin\Debug\`
+
 `.\ConsoleApp1.exe`
 
 Expected output:
